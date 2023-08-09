@@ -1,3 +1,7 @@
-l<<endl;
-    // cout<<"mid = "<<mid<<endl;
-    // cout<<"r = "<<r<<endl;
+or (auto&& i : v) {
+        cout << "{ ";
+        for (auto&& j : i) {
+            cout << j << ", ";
+        }
+        cout << "} ";
+    }
